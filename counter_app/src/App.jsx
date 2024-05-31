@@ -1,15 +1,15 @@
-let state ={
-  count :0
-}
+import { useState } from "react";
 
-function onClickHandler(){
-  state.count=state.count+1
-  console.log(state.count)
-}
+
+
 function App(){
+  const [count,setCount]=useState(0);
+  function onClickHandler(){
+    setCount(count+1)
+  };
   return (
     <div>
-      <button onClick={onClickHandler}>{state.count}</button>
+      <button onClick={onClickHandler}>{count}</button>
     </div>
   )
 }
