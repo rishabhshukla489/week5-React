@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 54393,
+            "driver": "Redshift Driver (Dedicated ver)",
+            "name": "prod",
+            "database": "ib-dl-it",
+            "username": "rshukla",
+            "password": "Unstylish-Evil-Venus9"
+        }
+    ]
+}
